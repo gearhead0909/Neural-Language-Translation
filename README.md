@@ -46,10 +46,10 @@ The architecture of the model is shown below :-<br /><br />
 The model did not achieve a very good validation accuracy because of limited system and small dataset.<br />
 The performance of the model is shown below :-<br /><br />
 
-Training and Validation Accuracy of the model is shown below :-<br />
+Training and Validation Accuracy of the model is shown below :-
 <img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Accuracy.png" alt="alt text" width="500" height="300"><br /><br />
 
-Training and Validation Loss of the model is shown below :-<br /><br />
+Training and Validation Loss of the model is shown below :-
 <img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Loss.png" alt="alt text" width="500" height="300"><br /><br />
 
 After Training, we need to make a model to predict the target sequences for the test sequences.<br />
