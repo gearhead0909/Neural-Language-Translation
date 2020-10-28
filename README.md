@@ -19,5 +19,18 @@ The steps of pre-processing involves :-
 5. Removing Extra Spaces
 
 For Expansion of Contractions, we used Google-NewsVector-300 for precise expansion.
-The same can be downloaded form [Here](https://code.google.com/archive/p/word2vec/)
+The same can be downloaded form [Here](https://code.google.com/archive/p/word2vec/).
 
+After pre-processing of the text, we will add start and end tokens to prepare them for Decoder input/targets.
+Since, Deep Neural Network can not work with words. We need to convert the words into vectors.
+
+First, we will Tokenize the input sentences and convert the words into integers using Keras preprocessing library Tokenizer.
+We dont want to filter start and end tokens so we dont add any filters while tokenizing the sentences.
+
+Neural Network can only work with the input sentences of same length.
+To make all the input sentences of the same length we will pad the sentences with zeros.
+After padding all the squences, sequences are ready to fed into the Neural Network.
+
+Then, we will make an Embedding Layer to convert every word to respective vector.
+we used GLoVe pre-trained word dictionary to make an embedding layer.
+Pre-trained word2vec dictionary can be downloaded from [Here](https://nlp.stanford.edu/projects/glove/).
