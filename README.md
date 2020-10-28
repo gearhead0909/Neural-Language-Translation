@@ -34,3 +34,10 @@ After padding all the squences, sequences are ready to fed into the Neural Netwo
 Then, we will make an Embedding Layer to convert every word to respective vector.
 we used GLoVe pre-trained word dictionary to make an embedding layer.
 Pre-trained word2vec dictionary can be downloaded from [Here](https://nlp.stanford.edu/projects/glove/).
+
+To make Decoder targets, we will one-hot encode the Target sequence words.
+Shape of one-hot targets will be :- (number of sentences, max length of output sequences, number of unique words in output sentences)
+
+Then we manually make layers for Encoder-Decoder architecture.
+Model will be defined with input and outputs.
+The architecture of the model is shown below :-
