@@ -41,3 +41,20 @@ Shape of one-hot targets will be :- (number of sentences, max length of output s
 Then we manually make layers for Encoder-Decoder architecture.
 Model will be defined with input and outputs.
 The architecture of the model is shown below :-
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Training.png" alt="alt text" width="500" height="300">
+
+The model did not achieve a very good validation accuracy because of limited system and small dataset.
+The performance of the model is shown below :-
+
+Training and Validation Accuracy of the model is shown below :-
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Accuracy.png" alt="alt text" width="500" height="300">
+
+Training and Validation Loss of the model is shown below :-
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Loss.png" alt="alt text" width="500" height="300">
+
+After Training, we need to make a model to predict the target sequences for the test sequences.
+Architecture of the model for prediction is shown below :-
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Prediction.png" alt="alt text" width="500" height="300">
+
+Our project successfully translated English language to Hindi Language.
+This model can further be improved with better system and dataset to train.
