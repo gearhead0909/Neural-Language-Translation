@@ -41,20 +41,20 @@ Shape of one-hot targets will be :- (number of sentences, max length of output s
 Then we manually make layers for Encoder-Decoder architecture.<br />
 Model will be defined with input and outputs.<br />
 The architecture of the model is shown below :-<br /><br />
-<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Training.png" alt="alt text" width="800" height="300"><br /><br />
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Training.png" alt="alt text" width="800" height="400"><br /><br />
 
 The model did not achieve a very good validation accuracy because of limited system and small dataset.<br />
 The performance of the model is shown below :-<br /><br />
 
 Training and Validation Accuracy of the model is shown below :-<br />
-<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Accuracy.png" alt="alt text" width="500" height="300"><br />
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Accuracy.png" alt="alt text" width="400" height="200"><br />
 
 Training and Validation Loss of the model is shown below :-<br />
-<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Loss.png" alt="alt text" width="500" height="300"><br />
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Loss.png" alt="alt text" width="400" height="200"><br />
 
 After Training, we need to make a model to predict the target sequences for the test sequences.<br />
 Architecture of the model for prediction is shown below :-<br /><br />
-<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Prediction.png" alt="alt text" width="800" height="300"><br /><br />
+<img src="https://github.com/gearhead0909/Neural-Language-Translation/blob/master/Model%20Prediction.png" alt="alt text" width="700" height="300"><br /><br />
 
 Our project successfully translated English language to Hindi Language.<br />
 This model can further be improved with better system and dataset to train.
